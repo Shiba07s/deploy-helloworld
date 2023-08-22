@@ -38,7 +38,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
-		<finalName>hello-docker</finalName>
+		<finalName>hello-world-docker</finalName>
 	</build>
 
 </project>
