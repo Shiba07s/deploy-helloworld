@@ -27,6 +27,7 @@ pipeline{
         }
         stage('Deploy') {
             steps {
+                echo "deploy on tomcat"
                  //deploy adapters: [tomcat9(credentialsId: 'tomcat', path: '', url: 'http://16.171.54.78:8090/')], contextPath: 'hello-app', war: '**/*.war'
             }
         }
