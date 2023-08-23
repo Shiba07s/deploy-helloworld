@@ -17,6 +17,7 @@ pipeline{
             steps{
                 echo "successfully creating war file"
                 sh 'mvn clean  '
+                sh 'mvn package  '
             }
             
         }
