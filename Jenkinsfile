@@ -30,7 +30,7 @@ pipeline{
         }
         stage('Deploy') {
             steps {
-                 deploy adapters: [tomcat9(credentialsId: 'tomcat', path: '', url: 'http://16.170.143.161:8090/')], contextPath: '/sars_app', jar: '**/*.jar'
+                 deploy adapters: [tomcat9(credentialsId: 'tomcat', path: '', url: 'http://16.170.143.161:8090/')], contextPath: 'world_app', jar: '**/*.jar'
             }
         }
         // stage('Deploy') {
