@@ -16,7 +16,7 @@ pipeline{
         stage ('Build'){
             steps{
                 echo "successfully creating war file"
-                sh 'mvn clean package'
+                sh 'mvn clean  '
             }
             
         }
