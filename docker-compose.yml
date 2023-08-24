@@ -1,6 +1,6 @@
 version : "3"
 services :
   web :
-     image : shiba07s/ldtech-docker.jar:latest
+     image : shiba07s/hello-world-docker.jar:latest
      ports :
          - "9090:9090"
