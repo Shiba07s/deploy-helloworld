@@ -3,4 +3,4 @@ services :
   web :
      image : shiba07s/ldtech-docker.jar:latest
      ports :
-         - "9095:9095"
+         - "9090:9090"
